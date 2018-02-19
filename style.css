@@ -1,0 +1,47 @@
+.container{
+  border: 10px solid orange;
+  border-style: ridge;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  background-color: #fce8cf;
+}
+
+table{
+  margin: auto;
+}
+
+td, th{
+  border: 2px solid orange;
+}
+td:empty:after{
+  content: 'placeHolder';
+}
+
+.col-xs-6{
+  text-align: center;
+}
+
+#xoSelect{
+  padding: 20px;
+}
+#x{
+  padding-left: 40px;
+}
+
+#o{
+  padding-right: 40px;
+}
+
+td{
+  //border: 5px solid orange;
+  padding: 30px;
+}
+
+#questionDiv{
+  padding: 30px;
+}
+
+h2{
+  color: #a55f03;
+}
